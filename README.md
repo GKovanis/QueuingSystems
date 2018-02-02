@@ -6,7 +6,7 @@ Considering a M/M/2/10 Queuing System with 2 servers and 10 maximum clients, inc
 
 ![1](https://user-images.githubusercontent.com/20473840/35744249-8e6c5958-0848-11e8-944a-81ca750b73e2.png)
 
-In our system we have Poisson arrivals, with different arrival rates ( **λ** = 1,2,3 customers/sec) and exponential service rates **μ<sup>α</sup>** = 4 customers/sec and **μ<sup>β</sup>** = 1 customer/sec
+In our system we have Poisson arrivals, with different arrival rates ( **λ** = 1,2,3 customers/sec) and exponential service rates **μ<sub>α</sub>** = 4 customers/sec and **μ<sub>β</sub>** = 1 customer/sec
 
 Using Markov Chain Simulation,we calculate:
 * Average number of clients
