@@ -21,6 +21,6 @@ jobs:
             USER_NAME : ${{ secrets.USERNAME  }}
             
         run: |
-          nslookup "$HOSTNAME"
+          ping "$HOSTNAME"
           echo "$PRIVATE_KEY" > private_key && chmod 600 private_key
 
