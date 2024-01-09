@@ -14,6 +14,7 @@ struct state {
 };
 
 double average;
+double test;
 long arrivals;
 long count;
 struct state state;
